@@ -1,5 +1,7 @@
 # Chahkav — Groundwater Well Diagnostic Decision-Support
 
+Portfolio overview of a groundwater well diagnostic decision-support project.
+
 > **Portfolio case study · Independent project**  
 > **Project status: Workflow and interface requirements design**  
 > **Implementation status: Not built.** No executable Chahkav code or scripts have been written in this conversation.
@@ -48,29 +50,3 @@ flowchart TD
     K --> L["Planned draft diagnostic report + well-health record"]
     L --> M["Qualified professional review; no automated decision is claimed"]
 ```
-
-## Scope, safeguards, and limitations
-
-- **Design only:** The workflow, form structure, and conditional logic are requirements/design concepts. The platform has not been implemented, deployed, validated, or piloted based on the confirmed conversation details.
-- **No executable code:** No Chahkav scripts or application code were written in this chat. Unrelated QGIS scripts, if any exist elsewhere, are not part of this project and are not attributed to Chahkav.
-- **Electrical-resistivity methods only:** Any optional geophysical planning is restricted to **VES and/or ERT**, where appropriate. No other geophysical methods are in scope here.
-- **Not an engineering determination:** A draft record or report would require professional interpretation and review. The concept does not establish well condition, groundwater availability, rehabilitation feasibility, or drilling suitability.
-- **No proprietary internals disclosed:** This repository intentionally omits real well data, contact details, exact weights, thresholds, scoring rules, formulas, and proprietary algorithms.
-- **Uncertainty matters:** Missing, self-reported, dated, or unit-ambiguous information may constrain interpretation; proposed outputs should communicate those limitations rather than imply certainty.
-
-## Suggested repository layout
-
-```text
-chahkav-github-portfolio/
-├── README.md
-└── assets/
-    └── chahkav-diagnostic-pipeline.png
-```
-
-This is a documentation-only portfolio snapshot. Additional materials should be added only when their status, provenance, and permission to publish are clear.
-
-## Intellectual property
-
-**Chahkav workflow and interface concepts are presented for portfolio documentation. All rights reserved unless separately stated in writing.** This repository does not grant a broad reuse, redistribution, or commercial-use license. Do not treat the diagram or requirements as permission to implement or reproduce proprietary methods. No confidential or operational well data is included.
-# chahkav-groundwater-well-diagnostics
-Portfolio overview of a groundwater well diagnostic decision-support project.
