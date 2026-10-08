@@ -5,20 +5,8 @@
 > **Implementation status: Not built.** No executable Chahkav code or scripts have been written in this conversation.
 
 Chahkav is a proposed decision-support workflow for organizing evidence about groundwater-well condition and framing a preliminary diagnostic review. This portfolio documents requirements, conditional intake concepts, and a high-level workflow—not a working application, validated diagnostic method, or operational service.
-
-![Conceptual Chahkav diagnostic workflow](graph TD
-    A[Start: Well Location & Context] --> B[Drilling & Construction Specs]
-    B --> C[Pump & Yield History]
-    C --> D[Neighboring Wells Impact]
-    D --> E[Sand, Deposits, Water Quality]
-    E --> F[Interventions & Incidents]
-    F --> G{Consistency Check}
-    G --> H[Draft Diagnostic Report]
-    H --> I[Optional: VES/ERT Resistivity Assessment]
-    I --> J[Final Well-Health Record]
-)
-
 *Figure 1. Planned workflow concept. Every stage shown is a design concept; it does not indicate implementation, deployment, validation, or completed pilot work.*
+
 
 ## Project at a glance
 
