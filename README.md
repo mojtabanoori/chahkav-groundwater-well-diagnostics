@@ -32,8 +32,6 @@ The proposed pipeline organizes reported and available evidence before a qualifi
 8. **Optional electrical-resistivity branch (planned, where appropriate).** Consider whether an electrical-resistivity assessment/design is relevant. The geophysical scope is limited to **VES and/or ERT**; this is an optional planning branch, not a claim that a survey has been performed.
 9. **Draft outputs and professional review (planned).** Prepare a draft diagnostic report and a well-health record, explicitly stating uncertainty, data gaps, assumptions, and limitations, for review by a qualified professional. These are proposed outputs, not generated deliverables from a deployed system.
 
-## Editable workflow (Mermaid)
-
 ```mermaid
 flowchart TD
     A["1 · Intake: well location, use & context"] --> B["2 · Intake: drilling, construction & available drilling records"]
